@@ -12,9 +12,9 @@ func main() {
 	reader := bufio.NewReader(os.Stdin)
 
 	aliceInput, _ := reader.ReadString('\n')
-	aliceInput =  strings.TrimSpace(aliceInput)
+	aliceInput = strings.TrimSpace(aliceInput)
 	bobInput, _ := reader.ReadString('\n')
-	bobInput =  strings.TrimSpace(bobInput)
+	bobInput = strings.TrimSpace(bobInput)
 
 	aliceRates := strings.Split(aliceInput, " ")
 	bobRates := strings.Split(bobInput, " ")
